@@ -33,22 +33,7 @@ export class MainIOS extends PureComponent {
                 <Carousel>
                     <div
                         style={{flex: 1, display: 'flex', justifyContent: 'flex-start', padding: 20, flexWrap: 'wrap'}}>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18, alignSelf: 'flex-start'}}/>
+                       
 
                     </div>
                     <div style={{display: 'flex', justifyContent: 'center', margin: 20}}>
@@ -68,14 +53,7 @@ export class MainIOS extends PureComponent {
                         justifyContent: 'space-between',
                         display: 'flex'
                     }}>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18}}/>
-                        <img src={require('../../assets/apple-music.jpg')}
-                             style={{height: 80, width: 80, borderRadius: 18}}/>
+                     
                     </div>
                 </Carousel>
             </div>
