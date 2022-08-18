@@ -5,7 +5,7 @@ export class MainIOS extends PureComponent {
     constructor(props) {
         super(props);
         this.state = {
-            background: require('./iosWallpapers/Light-A-1.jpg')
+            // background: require('./iosWallpapers/Light-A-1.jpg')
         }
     }
 
@@ -20,7 +20,7 @@ export class MainIOS extends PureComponent {
         const {background} = this.state
         return (
             <div style={{
-                backgroundImage: `url(${background})`,
+                // backgroundImage: `url(${background})`,
                 backgroundSize: 'cover',
                 display: 'flex',
                 padding: 20,
