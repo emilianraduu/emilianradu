@@ -13,7 +13,7 @@ function App() {
     }
   };
   return (
-    <div className="App">
+    <div>
       <Lottie options={defaultOptions}
         height={400}
         width={400}
