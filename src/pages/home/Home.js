@@ -1,6 +1,5 @@
 import React from "react";
 import Folder from "../../components/fileTypes/Folder";
-import './home.scss'
 import Pdf from "../../components/fileTypes/Pdf";
 
 const Home = () => {
@@ -13,7 +12,7 @@ const Home = () => {
                 <Folder text={'Contact'} pathname={'/contact'}/>
                 <Folder text={'Links'} pathname={'/links'}/>
                 <Folder text={'Projects'} pathname={'/projects'}/>
-                <Pdf text={'Curriculum Vitae'} link={require('./home.scss')}/>
+                <Pdf text={'C.V.'} link={''}/>
             </div>
         </div>
     )

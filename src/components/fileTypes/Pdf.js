@@ -1,7 +1,7 @@
 import React from "react";
 import './style.scss'
 
-const image = require('../../assets/icons/pdf.png')
+const image = require('../../assets/icons/pdf-icon.png')
 const Pdf = ({link = '/', text}) => {
     const onClick = () => {
         window.open(link);

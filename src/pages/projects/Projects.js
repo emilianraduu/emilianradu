@@ -12,7 +12,8 @@ const Projects = () => {
             </div>
             <div className={'content'}>
                 <Folder text={'Super12'} pathname={'/projects/super12'}/>
-                <Folder text={'Intern Project'} pathname={'/projects/super12'}/>
+                <Folder text={'Interns'} pathname={'/projects/intern'}/>
+                <Folder text={'Bachelors'} pathname={'/projects/bachelors'}/>
             </div>
         </div>
     )

@@ -1,24 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 .file {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  letter-spacing: 1px;
   width: fit-content;
   padding: 8px;
   border-radius: 8px;
   transition: 0.5s ease background-color;
   flex-grow: 1;
-  max-width: 90px;
+  cursor: pointer;
+  max-width: 100px;
   p {
     text-decoration: none;
     overflow: hidden;
+    text-align: center;
     white-space: nowrap;
-    max-width: 90px;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    max-width: 100px;
+    letter-spacing: 0.5px;
     text-overflow: ellipsis;
     color: black;
   }
   &:hover {
-    background-color: #cedce1;
+    background-color: #c5c6d2;
   }
 }
