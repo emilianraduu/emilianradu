@@ -10,7 +10,7 @@ const Back = ({history}) => {
     }
     return (
         <div onClick={onClick} className={'back'}>
-            <img src={icon} className={'backIcon'} />
+            <img alt={'back'} src={icon} className={'backIcon'} />
         </div>
     )
 }

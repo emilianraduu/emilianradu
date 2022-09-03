@@ -8,7 +8,7 @@ const Pdf = ({link = '/', text}) => {
     }
     return (
         <div onClick={onClick} className={'file'}>
-            <img src={image} className={'icon'}/>
+            <img alt={'pdf'} src={image} className={'icon'}/>
             <p>{text}</p>
         </div>
     )
