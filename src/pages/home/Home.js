@@ -1,5 +1,5 @@
 import React from "react";
-import Folder from "../../components/fileTypes/Folder";
+import RouteLink from "../../components/fileTypes/RouteLink";
 import Pdf from "../../components/fileTypes/Pdf";
 
 const Home = () => {
@@ -9,9 +9,9 @@ const Home = () => {
             <h2 className={'title'}>EMILIAN RADU</h2>
             </div>
             <div className={'content'}>
-                <Folder text={'Contact'} pathname={'/contact'}/>
-                <Folder text={'Links'} pathname={'/links'}/>
-                <Folder text={'Projects'} pathname={'/projects'}/>
+                <RouteLink text={'Contact'} pathname={'/contact'}/>
+                <RouteLink text={'Links'} pathname={'/links'}/>
+                <RouteLink text={'Projects'} pathname={'/projects'}/>
                 <Pdf text={'C.V.'} link={''}/>
             </div>
         </div>

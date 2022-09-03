@@ -1,5 +1,5 @@
 import React from "react";
-import Folder from "../../components/fileTypes/Folder";
+import RouteLink from "../../components/fileTypes/RouteLink";
 import './projects.scss'
 import Back from "../../components/back/Back";
 
@@ -11,9 +11,9 @@ const Projects = () => {
                 <h2 className={'title'}>PROJECTS</h2>
             </div>
             <div className={'content'}>
-                <Folder text={'Super12'} pathname={'/projects/super12'}/>
-                <Folder text={'Interns'} pathname={'/projects/intern'}/>
-                <Folder text={'Bachelors'} pathname={'/projects/bachelors'}/>
+                <RouteLink text={'Super12'} pathname={'/projects/super12'}/>
+                <RouteLink text={'Interns'} pathname={'/projects/intern'}/>
+                <RouteLink text={'Bachelors'} pathname={'/projects/bachelors'}/>
             </div>
         </div>
     )

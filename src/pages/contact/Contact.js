@@ -1,6 +1,7 @@
 import React from "react";
-import Folder from "../../components/fileTypes/Folder";
+import RouteLink from "../../components/fileTypes/RouteLink";
 import Back from "../../components/back/Back";
+import OutsideLink from "../../components/fileTypes/OutsideLink";
 
 const Contact = () => {
     return (
@@ -10,8 +11,8 @@ const Contact = () => {
                 <h2 className={'title'}>CONTACT</h2>
             </div>
             <div className={'content'}>
-                <Folder text={'Phone'} pathname={'/contact'}/>
-                <Folder text={'Email'} pathname={'/links'}/>
+                <OutsideLink text={'Phone'} image={require('../../assets/icons/phone.png')} pathname={'/contact'}/>
+                <RouteLink text={'Email'} pathname={'/links'}/>
             </div>
         </div>
     )

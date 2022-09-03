@@ -1,6 +1,6 @@
 import React from "react";
-import Folder from "../../components/fileTypes/Folder";
 import Back from "../../components/back/Back";
+import OutsideLink from "../../components/fileTypes/OutsideLink";
 
 const Links = () => {
     return (
@@ -10,8 +10,8 @@ const Links = () => {
                 <h2 className={'title'}>LINKS</h2>
             </div>
             <div className={'content'}>
-                <Folder text={'Github'} pathname={'/contact'}/>
-                <Folder text={'Linkedin'} pathname={'/links'}/>
+                <OutsideLink text={'GitHub'} pathname={'https://github.com/emilianraduu'}/>
+                <OutsideLink image={require('../../assets/icons/linkedin.png')} text={'Linkedin'} pathname={'https://www.linkedin.com/in/emilian-radu-bb1bb4172/'}/>
             </div>
         </div>
     )

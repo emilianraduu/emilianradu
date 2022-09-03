@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import './style.scss'
-const image = require('../../assets/icons/new-folder.png')
-const Folder = ({pathname = '/', text}) => {
+
+const RouteLink = ({pathname = '/', text, image = require('../../assets/icons/new-folder.png')}) => {
     return (
         <Link to={{pathname}} className={'file'}>
             <img alt={'folder'} src={image} className={'icon'} />
@@ -11,4 +11,4 @@ const Folder = ({pathname = '/', text}) => {
     )
 }
 
-export default Folder
+export default RouteLink
