@@ -1,25 +1,23 @@
 import React from 'react';
 import './App.css';
-import Lottie from 'react-lottie';
-import * as animationData from './assets/working.json'
+import Home from "./pages/home/Home";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Footer from "./components/footer/Footer";
+import Projects from "./pages/projects/Projects";
 
 function App() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  };
-  return (
-    <div>
-      <Lottie options={defaultOptions}
-        height={400}
-        width={400}
-        loop={true} />
-    </div>
-  );
+    return (
+        <div className={'main'}>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="projects" element={<Projects/>}/>
+                    <Route path="projects/super12" element={<Footer/>}/>
+                    <Route path="*" element={<>NO RESULT</>}/>
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;

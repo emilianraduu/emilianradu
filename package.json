@@ -2,7 +2,7 @@
   "name": "emilianradu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://emiradu98.github.io/emilianradu",
+  "homepage": "https://emilianradu.com",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
     "@testing-library/jest-dom": "^4.2.4",
@@ -13,12 +13,15 @@
     "react": "^16.14.0",
     "react-device-detect": "^1.14.0",
     "react-dom": "^16.14.0",
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "3.4.3",
-    "styled-components": "^5.2.0",
-    "react-lottie": "^1.2.3"
+    "react-scroll-parallax": "^3.3.1",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "netlify-cli": "^11.0.0"
+    "netlify-cli": "^11.0.0",
+    "sass": "^1.54.7"
   },
   "scripts": {
     "start": "react-scripts start",
