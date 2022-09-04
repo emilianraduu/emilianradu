@@ -7,7 +7,7 @@ import SwiperCore, {Autoplay} from 'swiper';
 SwiperCore.use([Autoplay]);
 const Gallery = ({images = []}) => {
     return (<Swiper
-        slidesPerView={window.innerWidth > 1080 ? 3 : 1}
+        slidesPerView={window.innerWidth > 1350 ? 3 : window.innerWidth > 1080 ? 2.3 : 1}
         autoplay={{delay: 2500}}
         loop={true}
         className={'wrapper'}>
