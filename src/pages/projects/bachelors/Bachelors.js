@@ -19,7 +19,7 @@ const Bachelors = () => {
         <div className={'page'}>
             <div className={'header'}>
                 <Back/>
-                <h2 className={'title'}>BACHELORS THESIS</h2>
+                <h2 className={'title'}>BACHELOR'S THESIS</h2>
             </div>
             <div className={'content'}>
                 <Gallery images={images}/>

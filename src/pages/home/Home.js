@@ -12,7 +12,7 @@ const Home = () => {
                 <RouteLink text={'Contact'} pathname={'/contact'}/>
                 <RouteLink text={'Links'} pathname={'/links'}/>
                 <RouteLink text={'Projects'} pathname={'/projects'}/>
-                <Pdf text={'C.V.'} link={''}/>
+                <Pdf text={'C.V.'} link={require('../../assets/Licenta.pdf')}/>
             </div>
         </div>
     )
