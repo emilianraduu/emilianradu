@@ -30,3 +30,21 @@
     background-color: #c5c6d2;
   }
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s ease all;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  img {
+    width: 120px;
+    height: auto;
+  }
+}

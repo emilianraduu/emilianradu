@@ -12,8 +12,8 @@ const Projects = () => {
             </div>
             <div className={'content'}>
                 <RouteLink text={'Super12'} pathname={'/projects/super12'}/>
-                <RouteLink text={'Interns'} pathname={'/projects/intern'}/>
-                <RouteLink text={'Bachelors'} pathname={'/projects/bachelors'}/>
+                <RouteLink text={'Interns Project'} pathname={'/projects/intern'}/>
+                <RouteLink text={'Bachelors Thesis'} pathname={'/projects/bachelors'}/>
             </div>
         </div>
     )

@@ -11,7 +11,8 @@ const Links = () => {
             </div>
             <div className={'content'}>
                 <OutsideLink text={'GitHub'} pathname={'https://github.com/emilianraduu'}/>
-                <OutsideLink image={require('../../assets/icons/linkedin.png')} text={'Linkedin'} pathname={'https://www.linkedin.com/in/emilian-radu-bb1bb4172/'}/>
+                <OutsideLink image={require('../../assets/icons/linkedin.png')} text={'LinkedIn'}
+                             pathname={'https://www.linkedin.com/in/emilianraduu/'}/>
             </div>
         </div>
     )
